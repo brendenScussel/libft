@@ -6,14 +6,15 @@
 #    By: bscussel <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/05/02 14:58:19 by bscussel          #+#    #+#              #
-#    Updated: 2019/05/14 18:02:07 by bscussel         ###   ########.fr        #
+#    Updated: 2019/06/13 14:09:51 by bscussel         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME		= libft.a
 FLAGS		= -c -Wall -Werror -Wextra
 HEADER		= libft.h
-SRCFILES	= ft_memset.c \
+SRCFILES	= end_prg.c \
+			  ft_memset.c \
 			  ft_bzero.c \
 			  ft_memcpy.c \
 			  ft_memccpy.c \
