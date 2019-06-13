@@ -10,6 +10,11 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+/*
+** exit program with customizable status output.
+** similar to "stdlib/abort.c"
+*/
+
 #include "./libft.h"
 
 void	end_prg(char *str)
