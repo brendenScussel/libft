@@ -19,9 +19,8 @@
 
 void	end_prg(char *str)
 {
-	ft_putstr("_______________\n");
+	ft_putstr("\n_______________\n");
 	ft_putstr(str);
-	ft_putchar('\n');
-	ft_putstr("_______________\n");
+	ft_putstr("\n_______________\n");
 	exit(1);
 }
