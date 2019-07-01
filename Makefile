@@ -6,7 +6,7 @@
 #    By: bscussel <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/05/02 14:58:19 by bscussel          #+#    #+#              #
-#    Updated: 2019/07/01 15:15:58 by bscussel         ###   ########.fr        #
+#    Updated: 2019/07/01 15:38:42 by bscussel         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -14,7 +14,7 @@ NAME		= libft.a
 FLAGS		= -c -Wall -Werror -Wextra
 HEADER		= libft.h
 SRCFILES	= ft_lstrev.c \
-			  ft_sqrt.c
+			  ft_sqrt.c \
 			  end_prg.c \
 			  ft_memset.c \
 			  ft_bzero.c \
