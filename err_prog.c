@@ -14,7 +14,6 @@
 
 void	err_prog(char *file, int type, char *note)
 {
-	ft_putstr("\n_______________\n");
 	if (type == 0)
 	{
 		ft_putstr_fd("ussage: ", STDERR_FILENO);
@@ -23,6 +22,6 @@ void	err_prog(char *file, int type, char *note)
 	}
 	if (type == 1)
 		ft_putstr_fd(note, STDERR_FILENO);
-	ft_putstr("\n_______________\n");
+	ft_putchar('\n');
 	exit(1);
 }
