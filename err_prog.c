@@ -6,22 +6,16 @@
 /*   By: bscussel <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/07/04 17:19:55 by bscussel          #+#    #+#             */
-/*   Updated: 2019/07/04 17:45:06 by bscussel         ###   ########.fr       */
+/*   Updated: 2019/08/13 15:17:01 by bscussel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "./libft.h"
 
-void	err_prog(char *file, int type, char *note)
+void	err_prog(char *note)
 {
-	if (type == 0)
-	{
-		ft_putstr_fd("ussage: ", STDERR_FILENO);
-		ft_putstr_fd(file, STDERR_FILENO);
-		ft_putstr_fd(note, STDERR_FILENO);
-	}
-	if (type == 1)
-		ft_putstr_fd(note, STDERR_FILENO);
-	ft_putchar('\n');
+	ft_putstr("\n_______________\n");
+	perror(note);
+	ft_putstr("\n_______________\n");
 	exit(1);
 }

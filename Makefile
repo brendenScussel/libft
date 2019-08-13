@@ -6,7 +6,7 @@
 #    By: bscussel <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/05/02 14:58:19 by bscussel          #+#    #+#              #
-#    Updated: 2019/07/04 17:11:59 by bscussel         ###   ########.fr        #
+#    Updated: 2019/08/13 15:35:23 by bscussel         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -15,6 +15,7 @@ FLAGS		= -c -Wall -Werror -Wextra
 HEADER		= libft.h
 SRCFILES	= ft_lstrev.c \
 			  ft_sqrt.c \
+			  ft_atoi_base.c \
 			  end_prog.c \
 			  err_prog.c \
 			  ft_memset.c \
