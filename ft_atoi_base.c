@@ -28,6 +28,8 @@ int		is_valid(char c, int base)
 	char valid1[17] = "0123456789ABCDEF";
 	char valid2[17] = "0123456789abcdef";
 
+	if (c == 'x')
+		return (1);
 	while (base--)
 	{
 		if (valid1[base] == c || valid2[base] == c)
