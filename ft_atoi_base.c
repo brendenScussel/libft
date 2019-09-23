@@ -12,6 +12,10 @@
 
 #include "libft.h"
 
+/*
+** convert ASCII numeric characters into an interger value with specified base (up to 16)
+*/
+
 int		value_of(char c)
 {
 	if (c >= '0' && c <= '9')
@@ -22,7 +26,9 @@ int		value_of(char c)
 		return (c - 'A' + 10);
 	return (0);
 }
-
+/*
+** compare the current character to the list of valid ones
+*/
 int		is_valid(char c, int base)
 {
 	char valid1[17] = "0123456789ABCDEF";
@@ -37,7 +43,14 @@ int		is_valid(char c, int base)
 	}
 	return (0);
 }
-
+/*
+** ft_atoi_base operates similar to the standard ft_atoi function.
+** the first character of "str" is read, and if a "-", the sign is set to -1
+** while the current character is "blank", it is skipped over
+** if there's a second "+" or "-", it is also skipped
+** while the current character is valid
+**	result = current value of result * the base umber + the value of the character
+*/
 int		ft_atoi_base(const char *str, int str_base)
 {
 	int		result;
