@@ -25,6 +25,7 @@ typedef struct		s_list
 	struct s_list	*next;
 }					t_list;
 
+int					absol(int i);
 int					ft_atoi_base(const char *str, int str_base);
 void				err_prog(char *note);
 void				end_prog(char *str);
