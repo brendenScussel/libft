@@ -14,6 +14,7 @@ NAME		= libft.a
 FLAGS		= -c -Wall -Werror -Wextra
 HEADER		= libft.h
 SRCFILES	= ft_lstrev.c \
+			  absol.c \
 			  ft_sqrt.c \
 			  ft_atoi_base.c \
 			  end_prog.c \
