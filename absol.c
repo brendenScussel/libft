@@ -14,6 +14,5 @@
 
 int         absol(int i)
 {
-    (i < 0) ? (-i) : (i);
-    return (i);
+    return (i = (i < 0) ? (-1 * i) : (i));
 }
