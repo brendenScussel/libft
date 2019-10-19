@@ -25,10 +25,8 @@ typedef struct		s_list
 	struct s_list	*next;
 }					t_list;
 
-int					absol(int i);
 int					ft_atoi_base(const char *str, int str_base);
 void				err_prog(char *note);
-void				end_prog(char *str);
 void				*ft_memset(void *b, int c, size_t len);
 void				ft_bzero(void *s, size_t n);
 void				*ft_memcpy(void *dst, const void *src, size_t n);
