@@ -12,12 +12,12 @@
 
 #include "libft.h"
 
-void				ft_base_con(int up, long long nbr, int base, char **res)
+void			ft_base_con(int up, long long nbr, int base, char **res)
 {
-	long long		size;
-	long long		tmp;
-	char			*str;
-	char			*case_tab;
+	long long	size;
+	long long	tmp;
+	char		*str;
+	char		*case_tab;
 
 	size = 1;
 	case_tab = (up == 1) ? ("0123456789ABCDEF") : ("0123456789abcdef");
