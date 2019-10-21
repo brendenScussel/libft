@@ -17,6 +17,7 @@
 # include <string.h>
 # include <stdio.h>
 # include <errno.h>
+# define ABSOL(i) ((i < 0) ? (-i) : (i))
 
 typedef struct		s_list
 {
@@ -26,6 +27,7 @@ typedef struct		s_list
 }					t_list;
 
 int					ft_atoi_base(const char *str, int str_base);
+void				ft_base_con(int up, long long nbr, int base, char **res);
 void				err_prog(char *note);
 void				*ft_memset(void *b, int c, size_t len);
 void				ft_bzero(void *s, size_t n);
