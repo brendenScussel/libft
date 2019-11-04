@@ -23,3 +23,9 @@ void	ft_putstr(char const *s)
 		i++;
 	write(1, s, i);
 }
+
+// void		ft_putstr(char *str)
+// {
+// 	while (*str)
+// 		write(1, str++, 1);
+// }
