@@ -24,8 +24,11 @@ void	ft_putstr(char const *s)
 	write(1, s, i);
 }
 
-// void		ft_putstr(char *str)
+// void		ft_putstr(char const *s)
 // {
-// 	while (*str)
-// 		write(1, str++, 1);
+//	char	*cpy;
+//
+//	cpy = s;
+// 	while (*cpy)
+// 		write(1, cpy++, 1);
 // }
