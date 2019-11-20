@@ -21,3 +21,12 @@ size_t	ft_strlen(const char *s)
 		len++;
 	return (len);
 }
+
+// size_t          bs_strlen(const char *s)
+// {
+//     size_t      len;
+
+//     len = 0;
+//     while(s[len++] != '\0');
+//     return (len - 1);
+// }
