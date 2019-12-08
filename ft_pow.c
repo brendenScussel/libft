@@ -12,7 +12,7 @@
 
 #include "./libft.h"
 
-long long		bs_pow(int x, unsigned int y)
+long long		ft_pow(int x, unsigned int y)
 {
 	int 		i;
 	long long	nbr;
