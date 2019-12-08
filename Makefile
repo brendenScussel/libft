@@ -73,6 +73,7 @@ SRCFILES	= ft_lstrev.c \
 			  ft_swap.c \
 			  ft_nbr_size.c \
 			  ft_pow.c \
+			  ft_absol.c \
 			  ft_lstnew.c \
 			  ft_lstdel.c \
 			  ft_lstdelone.c \
