@@ -28,7 +28,7 @@ void	ft_putstr(char const *s)
 // {
 //	char	*cpy;
 //
-//	cpy = s;
+//	cpy = (char*)s;
 // 	while (*cpy)
 // 		write(1, cpy++, 1);
 // }
