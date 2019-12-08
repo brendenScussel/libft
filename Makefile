@@ -77,6 +77,7 @@ SRCFILES	= ft_lstrev.c \
 			  ft_lstadd.c \
 			  ft_lstiter.c \
 			  ft_lstmap.c \
+			  bs_nbr_size.c \
 
 O_FILES 	= $(SRCFILES:%.c=%.o)
 
