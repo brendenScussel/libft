@@ -71,13 +71,14 @@ SRCFILES	= ft_lstrev.c \
 			  ft_putendl_fd.c \
 			  ft_putnbr_fd.c \
 			  ft_swap.c \
+			  ft_nbr_size.c \
+			  ft_pow.c \
 			  ft_lstnew.c \
 			  ft_lstdel.c \
 			  ft_lstdelone.c \
 			  ft_lstadd.c \
 			  ft_lstiter.c \
 			  ft_lstmap.c \
-			  ft_nbr_size.c \
 
 O_FILES 	= $(SRCFILES:%.c=%.o)
 
