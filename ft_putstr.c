@@ -11,7 +11,7 @@
 /* ************************************************************************** */
 
 #include "./libft.h"
-
+/*
 void	ft_putstr(char const *s)
 {
 	int i;
@@ -23,12 +23,12 @@ void	ft_putstr(char const *s)
 		i++;
 	write(1, s, i);
 }
+*/
+void		ft_putstr(char const *s)
+{
+	char	*cpy;
 
-// void		ft_putstr(char const *s)
-// {
-//	char	*cpy;
-//
-//	cpy = (char*)s;
-// 	while (*cpy)
-// 		write(1, cpy++, 1);
-// }
+	cpy = (char*)s;
+	while (*cpy)
+		write(1, cpy++, 1);
+}
