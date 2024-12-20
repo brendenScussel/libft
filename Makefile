@@ -16,7 +16,6 @@ HEADER		= libft.h
 SRCFILES	= ft_lstrev.c \
 			  ft_sqrt.c \
 			  ft_atoi_base.c \
-			  ft_base_con.c \
 			  err_prog.c \
 			  ft_memset.c \
 			  ft_bzero.c \
